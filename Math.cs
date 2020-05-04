@@ -1,5 +1,7 @@
 namespace Quickmaths {
 
+// This only exists to not have to manually cast everything from System.Math to a float
+
 public static class Math {
 
     public static readonly float PI = (float) System.Math.PI;
