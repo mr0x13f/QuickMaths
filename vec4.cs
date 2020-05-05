@@ -221,11 +221,7 @@ public partial struct vec4 {
 	//////////////////////////////////////////////////////////////////////////
 
     public static implicit operator vec4(vec3 v) {
-        return new vec4(
-            v.x,
-			v.y,
-			v.z,
-			0 );
+        return new vec4(v,0);
     }
 
     public static explicit operator vec4(float[] v) {
